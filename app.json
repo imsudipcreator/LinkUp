@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Link Up",
+    "slug": "SocialMedia",
+    "version": "2.1.0",
+    "orientation": "portrait",
+    "scheme": "myapp",
+    "icon": "./assets/images/iconSmall.png",
+    "splash": {
+      "image": "./assets/images/SplashScreen.png",
+      "resizeMode": "cover"
+    },
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.imago.linkup"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/iconSmall.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.imago.linkup"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/SplashScreen.png",
+          "imageWidth": 400,
+          "resizeMode": "cover",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "37cdd600-06d3-451a-8751-cb4a53819f77"
+      }
+    }
+  }
+}
